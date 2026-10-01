@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой PaaS Сайт</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px 30px;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #007bff 0%, #00d2ff 100%);
+      color: #fff;
+      font-weight: 700;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .features {
+      text-align: left;
+      background: rgba(0, 0, 0, 0.25);
+      padding: 18px 20px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+    }
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+    }
+    .feature-item:last-child {
+      margin-bottom: 0;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: #4ade80;
+      background: rgba(74, 222, 128, 0.1);
+      padding: 6px 14px;
+      border-radius: 20px;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      background-color: #4ade80;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #4ade80;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">PaaS MODEL</span>
+    <h1>🚀 Сайт успешно запущен!</h1>
+    <p>Проект развернут на платформе <strong>GitHub Pages</strong> без вручную настроенных серверов и ОС.</p>
+
+    <div class="features">
+      <div class="feature-item">⚡ <strong>Деплой:</strong> Автоматическая сборка</div>
+      <div class="feature-item">🔒 <strong>Безопасность:</strong> HTTPS сертификат</div>
+      <div class="feature-item">🛠 <strong>Серверы:</strong> Полностью на провайдере</div>
+    </div>
+
+    <div class="status">
+      <span class="dot"></span> Platform as a Service в действии
+    </div>
+  </div>
+</body>
+</html>
